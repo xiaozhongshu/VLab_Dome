@@ -1,0 +1,49 @@
+
+.container{
+  margin-bottom: 380px;
+}
+
+.body-title {
+  color: #000000;
+  font-size: 28px;
+  padding: 56px 330px;
+}
+
+.content {
+  width: 600px;
+  margin-left: 110px;
+}
+
+.content-input {
+  width: 564px;
+  height: 33px;
+  padding: 5px 10px;
+  border: 1px solid #ced4da;
+  font-size: 14px;
+  color: #686868;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.sublime {
+  width: 120px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+  margin: 20px auto 70px;
+  cursor: pointer;
+  background: #e994a9;
+}
+
+.body-box{
+  position: absolute;
+  right: 264px;
+  top: 108px;
+}
+
+.body-box img {
+  width: 280px;
+  height:  384px;
+}

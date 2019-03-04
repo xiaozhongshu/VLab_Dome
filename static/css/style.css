@@ -1,0 +1,98 @@
+div, form, img, ul, ol, li, dl, dt, dd, p, tr, td, body, strong, span, pre, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: 0px;
+  max-width: 100%;
+}
+
+ul, li {
+  list-style: none;
+}
+
+em {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 1200px !important;
+  max-width: none !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin: 0 auto;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.list-group-item:last-child {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+  outline:none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"]{
+  -moz-appearance: textfield;
+}
+
+* {
+  font-size: 14px;
+  color: #686868;
+  font-family: "Hiragino Sans GB","Microsoft Yahei UI","Microsoft Yahei","微软雅黑",'Segoe UI',Tahoma,"宋体b8b\4f53",SimSun,sans-serif;
+}
+
+video{
+  max-width: 100%;
+}
+
+
+
+
+/*覆盖首页banner默认样式*/
+.carousel-indicators{
+  bottom: 18px;
+}
+.carousel-indicators li:focus{
+  outline: none;
+}
+.carousel-indicators li{
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #ebebf3;
+  border: 2px solid #b9b9cb;
+}
+.carousel-indicators .active {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #b9b9cb;
+}

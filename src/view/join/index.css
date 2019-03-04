@@ -1,0 +1,83 @@
+
+.banner {
+  height: 653px;
+  background: url('../../../static/image/join-banner.jpg');
+  background-size: cover;
+  margin: 0px auto;
+  background-position: center;
+}
+
+.recruit-bg {
+  height: 188px;
+  background-color: #ffe6eb;
+}
+
+.recruit {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.recruit-title {
+  color: #000000;
+  font-size: 28px;
+}
+
+.recruit-email {
+  padding: 30px 0px;
+  color: #000000;
+  font-size: 24px;
+}
+
+.recruit-post {
+  padding-bottom: 105px;
+}
+
+.recruit-post-title {
+  font-size: 28px;
+  color: #971e1a;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.recruit-post-title-en{
+  font-size: 24px;
+  color: #971e1a;
+  text-align: center;
+  padding: 5px 0px 30px;
+}
+
+.post-information{
+  font-size: 14px;
+  color: #1b1b1b;
+  padding: 0px 90px 15px 168px;
+  letter-spacing:1px;
+}
+
+.post-qualifications{
+  font-size: 24px;
+  color: #121212;
+  padding: 55px 90px 15px 168px;
+  letter-spacing:1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,228 @@
+.nav-slide-body-content{
+  position: relative;
+}
+.nav-slide-body-content-point{
+  width: 18px;
+  height: 190px;
+  position: fixed;
+  right: 48px;
+  top: 50%;
+  margin-top: -94px;
+  z-index: 100;
+}
+.nav-slide-body-content-point-active{
+  background: #f4bdca;
+}
+.nav-slide-body-content-point-item{
+  width: 16px;
+  height: 16px;
+  border: 2px solid #f4bdca;
+  display: block;
+  margin-bottom: 18px;
+  border-radius: 50%;
+  cursor:pointer;
+}
+.nav-slide-body-content-point-arr{
+  width: 0;
+  height: 0;
+  top: -18px;
+  left: -2px;
+  position: relative;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 21px solid #f4bdca;
+  cursor:pointer;
+}
+
+.block-title-pink{
+  color: #da9193;
+  font-size: 28px;
+}
+.block-title{
+  color: #000000;
+  font-size: 28px;
+  text-align: center;
+}
+.block-title-line{
+  width: 72px;
+  margin: 0px 12px;
+  display: inline-block;
+  border-bottom: 1px solid #000000;
+}
+.block-title-sub{
+  font-size: 12px;
+  color: #020202;
+}
+
+.banner-bg-100{
+  width: 100%;
+  min-width: 1200px;
+  background: #e8ebee;
+}
+
+.banner{
+  max-width: 1920px;
+  height: 653px;
+  margin: 0 auto;
+  background-image: url("../../../static/image/share-banner.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.business{
+  min-width: 1200px;
+  max-width: 1920px;
+  height: 786px;
+  margin: 0 auto;
+  padding-top: 60px;
+  background-image: url("../../../static/image/share01.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.business-brief{
+  width: 200px;
+  position: absolute;
+  top: 155px;
+  left: 402px;
+  line-height: 26px;
+  font-size: 14px;
+  color: #010101;
+}
+
+.middle-banner{
+  min-width: 1200px;
+  max-width: 1920px;
+  height: 834px;
+  margin: 0 auto;
+  padding-top: 60px;
+  background-image: url("../../../static/image/share02.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.server{
+  min-width: 1200px;
+  max-width: 1920px;
+  height: 850px;
+  padding-top: 60px;
+  margin: 0 auto;
+  background-image: url("../../../static/image/share05.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+
+.server-title{
+  font-size: 24px;
+  text-align: center;
+  color: #010101;
+  margin: 30px 0px 50px 0px;
+}
+
+.server-bg{
+  width: 604px;
+  height: 562px;
+  margin: 0 auto;
+  background-image: url("../../../static/image/share03.jpg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+
+.case{
+  padding-top: 100px;
+}
+
+.case-carousel{
+  width: 1014px;
+  height: 600px;
+  margin: 0 auto;
+  padding-top: 100px;
+  position: relative;
+}
+
+.case-carousel-agency{
+  position: absolute;
+  left: 98px;
+  top: 26px;
+}
+
+.case-carousel-agency-image{
+  position: relative;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.case-carousel .swiper-button-prev{
+  width: 41px;
+  height: 78px;
+  position: absolute;
+  top: 240px;
+  left: -42px;
+  background-image: url("../../../static/image/arrow.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform:rotate(180deg);
+  -ms-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+  -o-transform:rotate(180deg);
+}
+
+.case-carousel .swiper-button-prev:focus{
+  outline: none !important;
+}
+
+.case-carousel .swiper-button-next{
+  width: 41px;
+  height: 78px;
+  position: absolute;
+  top: 240px;
+  right: -42px;
+  background-image: url("../../../static/image/arrow.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.case-carousel .swiper-button-next:focus{
+  outline: none !important;
+}
+
+.case-item{
+  text-align: center;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.case-item-image{
+  margin-bottom: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-box-shadow: 10px 10px 5px #e3e3e3;
+  box-shadow: 0px 0px 10px #e3e3e3;
+}
+
+.case-item-text{
+  font-size: 14px;
+  color: #1b1b1b;
+}
+
+.join{
+  min-width: 1200px;
+  max-width: 1920px;
+  height: 572px;
+  margin: 0 auto;
+  background-image: url("../../../static/image/share04.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}

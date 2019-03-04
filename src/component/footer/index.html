@@ -1,0 +1,51 @@
+<footer class="footer">
+  <div class="main">
+    <div class="footer-about">
+      <h2>关于维嘉</h2>
+      <p>品牌介绍</p>
+      <p>创始人团队</p>
+      <p>V+Lab历程</p>
+    </div>
+    <div class="footer-server">
+      <h2>产品与服务</h2>
+      <p>薇嘉系列产品</p>
+      <p>薇嘉故事</p>
+      <p>分享创业</p>
+      <p>商城购买</p>
+      <router-link to="/antifake"><p>真伪查询</p ></router-link>
+      <router-link to="/certificate"><p>查询授权书</p ></router-link>
+    </div>
+    <div class="footer-contact">
+      <h2>联系我们</h2>
+      <p>00 86 21 61520350</p>
+      <p>vlab_guanfang@vpluslab.com</p>
+      <p>上海市杨浦区政立路500号7号楼创智天地3楼A46室</p>
+    </div>
+    <div class="footer-follow">
+      <h2>关注我们</h2>
+      <div class="footer-follow-list"
+            @click="handleShowMask">
+        <img src="../../../static/image/join-WeChat.png" alt="">
+        <span>微信</span>
+      </div>
+      <div class="footer-follow-list">
+        <img src="../../../static/image/join-Tmall.png" alt="">
+        <span>天猫</span>
+      </div>
+      <div class="footer-follow-list">
+        <img src="../../../static/image/join-blog.png" alt="">
+        <span>微博</span>
+      </div>
+    </div>
+    <div style="clear: both"></div>
+    <div class="footer-copy">
+      <p>© 2016-2018 上海星销生物科技有限公司 版权所有 | 沪ICP备18029351号-2</p>
+    </div>
+  </div>
+  <div v-if="isMask"
+        @click="handleHideMask">
+    <div class="footer-mask"></div>
+    <img class="footer-code" src="../../../static/image/code.jpg" alt="">
+  </div>
+</footer>
+

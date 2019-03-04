@@ -1,0 +1,41 @@
+<!-- 头部 -->
+<header class="header">
+  <div class="main">
+    <div class="header-box">
+      <router-link to="/">
+        <img class="header-logo" src="../../../static/image/logo.jpg" alt="logo">
+      </router-link>
+      <span>
+        <router-link :class="index == 0 ? 'header-box-active' : '' " to="/">首页</router-link>
+      </span>
+      <span>
+        <router-link :class="index == 1 ? 'header-box-active' :''" to="/about">关于维嘉</router-link>
+      </span>
+      <span>
+        <router-link :class="index == 2 ?'header-box-active' :''" to="/vlab">系列产品</router-link>
+      </span>
+      <span>
+        <router-link :class="index == 3 ?'header-box-active' :''" to="/tale">维嘉故事 </router-link>
+      </span>
+      <span>
+        <router-link :class="index == 4 ?'header-box-active' :''" to="/share">分享创业</router-link>
+      </span>
+      <span>
+        <router-link :class="index == 5 ?'header-box-active' :''" to="/product/list">商城</router-link>
+      </span>
+      <span>
+        <router-link :class="index == 6 ?'header-box-active' :''" to="/join">加入我们</router-link>
+      </span>
+      <span class="user-msg">
+        <!--<router-link to="/">登录 /</router-link>-->
+        <!--<router-link to="/">注册</router-link>-->
+        <img class="user-msg-img" src="../../../static/image/user.png" alt="">
+        <router-link class="user-msg-name"
+                     to="/member">Mr.LiMr.LiMr.LiMr.LiMr.LiMr.LiMr.LiMr.LiMr.LiMr.LiMr.Li</router-link>
+        <div class="header-nav-exit">
+          <p @click="handleExit()">退出</p>
+        </div>
+      </span>
+    </div>
+  </div>
+</header>

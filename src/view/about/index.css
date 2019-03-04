@@ -1,0 +1,151 @@
+
+.banner {
+  height: 653px;
+  background: url('../../../static/image/about-01.png');
+  background-size: cover;
+  margin: 0px auto;
+  background-position: center;
+}
+
+.VLab {
+  padding-top: 64px;
+}
+
+.introduce-title {
+  text-align: center;
+  color: #000000;
+  font-size: 28px;
+}
+
+.introduce-line {
+  width: 72px;
+  margin: 0px 12px;
+  display: inline-block;
+  border-bottom: 1px solid #000000;
+}
+
+.introduce-text {
+  font-size: 12px;
+  color: #020202;
+}
+
+.VLab-brand {
+  width: 676px;
+  height: 104px;
+  margin: 20px auto 30px;
+  border: 1px dashed #cccccc;
+  text-align: center;
+}
+
+.VLab-brand-title {
+  color: #010101;
+  padding: 14px 0px 4px;
+  font-size: 24px;
+}
+
+.VLab-brand-name {
+  color: #e397b7;
+  font-size: 24px;
+}
+
+.VLab-brand-corporate {
+  padding-right: 10px;
+  color: #e397b7;
+  font-size: 20px;
+}
+
+.VLab-brand-text {
+  width: 676px;
+  margin: 0 auto 90px;
+  text-align: center;
+}
+
+.VLab-brand-text p {
+  VLabfont-size: 14px;
+  color: #1b1b1b;
+  margin-bottom: 10px;
+}
+
+.author {
+  height: 611px;
+  background: url('../../../static/image/about-03.png');
+  background-size: cover;
+  margin: 0px auto;
+  background-position: center;
+}
+
+.course {
+  padding-top: 64px;
+  margin: 0 auto;
+}
+
+.course-title {
+  text-align: center;
+  color: #000000;
+  font-size: 28px;
+}
+
+.course-line {
+  width: 72px;
+  margin: 0px 12px;
+  display: inline-block;
+  border-bottom: 1px solid #000000;
+}
+
+.course-text {
+  font-size: 12px;
+  color: #020202;
+}
+
+.course-body {
+  padding: 0px 120px 62px 182px;
+}
+
+.course-body-line {
+  margin-top: 32px;
+}
+
+.media-picture {
+  margin-right: 14px;
+}
+
+.media-picture img {
+  width: 68px;
+  height: 68px;
+  margin-right: 54px;
+  border-radius: 50%;
+  /*边界半径：50%；*/
+}
+
+.course-body-content {
+  padding-top: 22px;
+  font-size: 20px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+}
+
+.course-body-content-time {
+  width: 110px;
+  font-size: 14px;
+  color: #1b1b1b;
+  padding-right: 20px;
+}
+
+.course-body-content-text {
+  font-size: 14px;
+  color: #1b1b1b;
+  letter-spacing: 1px;
+  /*字母间距：1px；*/
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+
+.content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.member-info {
+  width: 876px;
+}
+
+.member-info {
+  width: 876px;
+}
+
+.member-info-title {
+  display: flex;
+  color: #666666;
+  font-size: 22px;
+  margin: 20px 0px;
+}
+
+.content-description-title-new-address {
+  flex: 1;
+  font-size: 14px;
+  color: #666;
+  text-align: right;
+}
+
+.address {
+  border-bottom: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  width: 874px;
+  height: 366px;
+}
+
+.address-list{
+  display: flex;
+  border-top: 1px solid #dddddd;
+}
+
+.address-list-left{
+  width: 50%;
+  padding: 8px;
+  border-right: 1px solid #dddddd;
+}
+
+.address-list-right{
+  width: 50%;
+  padding: 8px;
+  text-align: right;
+}
+
+.address-list-right-edit{
+  width: 90px;height: 36px;
+  display: inline-block;
+  line-height: 36px;
+  text-align: center;
+  background-color: #e994a9;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

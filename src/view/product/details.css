@@ -1,0 +1,165 @@
+
+.body-title {
+  font-size: 58px;
+  color: #000000;
+  padding: 56px 0px;
+  text-align: center;
+}
+
+.content {
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.content-left {
+  width: 532px;
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.content-right {
+  width: 658px;
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.content-right-title {
+  font-size: 34px;
+  color: #000000;
+  padding: 16px 0px;
+  display: inline-block;
+}
+
+.content-right-comment {
+  font-size: 14px;
+  color: #1b1b1b;
+  line-height: 34px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #d7d7d7d7;
+  display: inline-block;
+}
+
+.content-right-sku {
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.content-right-sku-title {
+  color: #000;
+  font-size: 16px;
+}
+
+.content-right-sku-item {
+  border: 2px solid #e994a9 !important;
+  font-size: 14px;
+  padding: 14px;
+  color: #1b1b1b;
+  border-radius: 2px;
+  margin-top: 24px;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: relative;
+}
+
+.content-right-sku-item-2 {
+  border: 2px solid #d7d7d7;
+  font-size: 14px;
+  padding: 14px;
+  color: #1b1b1b;
+  border-radius: 2px;
+  margin-top: 24px;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: relative;
+}
+
+.content-right-sku-item-price {
+  position: absolute;
+  right: 14px;
+}
+
+.content-right-purchase{
+  height: 58px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.content-right-purchase-title {
+  width: 132px;
+  font-size: 16px;
+  color: #000000;
+  margin: 24px 0px;
+  position: absolute;
+}
+
+.content-right-sku-number{
+  width: 163px;
+  height: 36px;
+  border: 1px solid #dee2e6;
+  position: absolute;
+  top: 18px;
+  left: 128px;
+}
+
+.content-right-sku-number-pull{
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  border-right: 1px solid #dee2e6;
+  cursor: pointer;
+  float: left;
+  background-color: #e9ecef;
+  text-align: center;
+
+}
+
+.content-right-sku-number-input{
+  width: 93px;
+  height: 34px;
+  float: left;
+  text-align: center;
+}
+
+.content-right-sku-number-input:focus{
+  outline: medium;
+}
+
+.content-right-sku-number-push{
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  border-left: 1px solid #dee2e6;
+  cursor: pointer;
+  float: left;
+  background-color: #e9ecef;
+  text-align: center;
+}
+
+.content-right-pricr-rmb {
+  font-size: 42px;
+  font-weight: 700;
+  color: #000000;
+  margin-top: 6px;
+}
+
+.content-right-pricr {
+  padding: 10px 0px 46px;
+  text-align: right;
+}
+
+.content-right-pricr-purchase {
+  height: 40px;
+  line-height: 34px;
+  font-size: 18px;
+  background: #e994a9;
+  color: #ffffff;
+  display: inline-block;
+  padding: 4px 40px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  top: 30px;
+}
+

@@ -1,0 +1,108 @@
+
+.header {
+  min-width: 1200px;
+  height: 58px;
+  background: #e994a9;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 999;
+}
+
+.header-box {
+  padding-top: 2px;
+  box-sizing: border-box;
+  height: 58px;
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  width: 72px;
+  height: 30px;
+  margin-right: 140px;
+}
+
+.header-box span {
+  padding-right: 62px;
+}
+
+.header-box span a {
+  color: #ffffff;
+  line-height: 21px;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.header-box-active {
+  border-bottom: 2px solid #ffffff;
+}
+
+.user-msg {
+  width: 123px;
+  position: relative;
+  padding-right: 0px !important;
+}
+
+.user-msg-img {
+  width: 21px;
+  height: 22px;
+  vertical-align: baseline;
+  margin-right: 2px;
+}
+
+.user-msg-name { /*用户名下移，对齐用户头像*/
+  position: relative;
+  top: 6px;
+  width: 95px;
+  display: inline-block;
+  word-wrap: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.header-nav-exit {
+  position: absolute;
+  bottom: -50px;
+  width: 123px;
+  left: 0px;
+  text-align: center;
+  cursor: pointer;
+  background: #e994a9;
+  padding: 6px 10px 10px 10px;
+  display: none;
+}
+
+.user-msg:hover .header-nav-exit {
+  display: block;
+}
+
+.header-nav-exit p {
+  border-top: 1px solid #ffffff;
+  color: #ffffff;
+  margin-top: 6px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

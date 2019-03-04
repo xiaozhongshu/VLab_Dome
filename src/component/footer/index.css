@@ -1,0 +1,112 @@
+
+.footer {
+  min-width: 1200px;
+  padding-top: 86px;
+  background: #D2D2D2;
+  height: 554px;
+}
+
+.footer h2 {
+  color: #111111;
+  font-size: 20px;
+  padding-bottom: 28px;
+  font-weight: 700;
+}
+
+.footer p {
+  font-size: 14px;
+  padding-bottom: 24px;
+  cursor: pointer;
+  color: #111111;
+}
+
+.footer-about {
+  width: 332px;
+  float: left;
+  padding-left: 113px;
+  box-sizing: border-box;
+}
+
+.footer-server {
+  width: 224px;
+  float: left;
+}
+
+.footer-contact {
+  width: 310px;
+  float: left;
+
+}
+
+.footer-follow {
+  width: 315px;
+  float: left;
+}
+
+.footer-follow-list {
+  float: left;
+  width: 58px;
+  margin-right: 30px;
+}
+
+.footer-follow-list img {
+  margin-bottom: 10px;
+}
+
+.footer-follow-list span {
+  padding-left: 15px;
+}
+
+.footer-copy {
+  border-top: 2px solid #d7d7d7;
+  font-size: 14px;
+  color: #6e6e6e;
+  padding-top: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 494px;
+  margin: 20px auto 0px;
+
+}
+
+.footer-mask {
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  opacity: 0.5;
+  background: #000000;
+  position: fixed;
+  z-index: 9999;
+}
+
+.footer-code {
+  position: fixed; /*相对于浏览器窗口进行定位*/
+  left: 50%;
+  top: 50%;
+  margin-top: -224px;
+  margin-left: -156px;
+  z-index: 999999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

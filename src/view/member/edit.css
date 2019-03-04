@@ -1,0 +1,25 @@
+
+.content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.member-info {
+  width: 876px;
+}
+
+.member-info-title {
+  color: #666666;
+  font-size: 22px;
+  margin: 20px 0px;
+}
+
+.member-info-title-text {
+  color: #333333;
+  display: inline-block;
+}
+
+.member-info-title-name {
+  color: #e994a9;
+}

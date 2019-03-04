@@ -1,0 +1,20 @@
+.content-sidebar {
+  width: 324px;
+  padding: 0px 15px 0px 30px;
+  box-sizing: border-box;
+}
+
+.content-sidebar-title {
+  font-size: 22px;
+  margin: 20px 0px 16px;
+  color: #666666;
+}
+
+.content-sidebar-text {
+  padding: 2px 0px;
+  box-sizing: border-box;
+}
+
+.sidebar-item-active{
+  color: #e994a9;
+}

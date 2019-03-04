@@ -1,0 +1,63 @@
+
+.content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.member-info {
+  width: 876px;
+}
+
+.member-info-title {
+  color: #666666;
+  font-size: 22px;
+  margin: 20px 0px;
+}
+
+.form-group {
+  margin-bottom: 14px;
+  width: 548px;
+}
+
+.form-group-text {
+  display: block;
+  padding-bottom: 6px;
+  color: #686868;
+  padding-top: 0!important;
+  box-sizing: border-box;
+}
+
+.form-group-input{
+  display: block;
+  padding: 16px 10px;
+  border: 1px solid #ced4da;
+  font-size: 12px;
+  color: #495057;
+  background-color: #ffffff;
+  width: 548px;
+  border-radius: 4px;
+  height: 21px;
+}
+
+.submission{
+  width: 548px;
+  position: relative;
+  height: 60px;
+}
+
+.submission-button{
+  width: 90px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #e994a9;
+  cursor: pointer;
+  position: absolute;
+  right: 0px;
+  top: 30px;
+}
+
+
+

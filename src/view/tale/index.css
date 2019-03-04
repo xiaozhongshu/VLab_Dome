@@ -1,0 +1,192 @@
+
+.banner {
+  height: 653px;
+  margin: 0px auto;
+  background: url("../../../static/image/tale-banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.content-bg {
+  background-color: #f7f7f7;
+}
+
+.content-box {
+  padding-top: 78px;
+  padding-bottom: 100px;
+  display: flex;
+}
+
+.left-list-box {
+  width: 122px;
+  text-align: right;
+  padding-right: 16px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.left-list-box-title {
+  font-size: 26px;
+  padding-top: 30px;
+  color: #a0a3a6;
+  cursor: pointer;
+}
+
+.left-list-box-line {
+  display: block;
+  width: 6px;
+  height: 30px;
+  margin: 0px 5px 5px 78px;
+  background: #f7f7f7;
+}
+
+.content-box-list h3 {
+  font-size: 24px;
+  color: #a0a3a6;
+  cursor: pointer;
+}
+
+.content-box-list-active {
+  color: #020202 !important;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.left-list-box-year-box li {
+  font-size: 24px;
+  color: #a0a3a6;
+  cursor: pointer;
+}
+
+.right-tale-box-item {
+  width: 534px;
+  display: inline-block;
+}
+
+.right-tale-box-item-box {
+  margin-bottom: 85px;
+  overflow: hidden;
+}
+
+.right-tale-box-item-box-title {
+  width: 162px;
+  padding-right: 18px;
+  text-align: right;
+  font-size: 24px;
+  color: #000000;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.right-tale-box-item-box-number {
+  font-size: 54px;
+  color: #000000;
+}
+
+.right-tale-box-item-box-year {
+  width: 80px;
+  text-align: center;
+  display: inline-block;
+  font-size: 24px;
+  color: #ffffff;
+  background: #f0a7af;
+}
+
+.right-tale-box-item-box-content {
+  width: 364px;
+  float: right;
+}
+
+.right-tale-box-item-box-img {
+  float: right;
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.right-tale-box-item-box-img:hover .right-tale-box-item-box-img-box{
+  transform: scale(1.2);
+}
+
+.right-tale-box-item-box-img-box {
+  width: 340px;
+  height: 242px;
+  background: url("../../../static/image/tale01.png");
+  background-position: center;
+  background-size: cover;
+  transition: all .6s;
+  cursor: pointer;
+}
+
+.right-tale-box-item-box-img-box-text {
+  float: right;
+  width: 364px;
+  font-size: 18px;
+  color: #010101;
+  text-align: center;
+  line-height: 20px;
+  padding-top: 25px;
+}
+
+.right-tale-box-more{
+  text-align: center!important;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

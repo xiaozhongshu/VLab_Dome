@@ -1,0 +1,23 @@
+
+<div class="content-sidebar">
+  <h2 class="content-sidebar-title">会员中心</h2>
+  <router-link to="/order">
+    <p class="content-sidebar-text"
+       :class="items == 1 ? 'sidebar-item-active' : ''">我的订单</p>
+  </router-link>
+  <router-link to="/address">
+    <p class="content-sidebar-text"
+       :class="items == 2 ? 'sidebar-item-active' : ''">收货地址</p>
+  </router-link>
+  <router-link to="/member/data">
+    <p class="content-sidebar-text"
+       :class="items == 3 ? 'sidebar-item-active' : ''">个人资料</p>
+  </router-link>
+
+  <h2 class="content-sidebar-title">账户和安全</h2>
+  <router-link to="/member/password">
+    <p class="content-sidebar-text"
+        :class="items == 4 ? 'sidebar-item-active' : ''">修改密码</p>
+  </router-link>
+  <h2 class="content-sidebar-title">退出</h2>
+</div>

@@ -1,0 +1,58 @@
+
+.banner {
+  height: 653px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url('../../../static/image/V-lab01.png');
+  background-position: center;
+  position: relative;
+}
+
+.banner-shopping {
+  width: 200px;
+  height: 55px;
+  display: inline-block;
+  position: absolute;
+  top: 526px;
+  right: 600px;
+}
+
+.banner-01 {
+  height: 653px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url('../../../static/image/V-lab02.png');
+  background-position: center;
+}
+
+.banner-02 {
+  height: 338px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url('../../../static/image/V-lab03.png');
+  background-position: center;
+}
+
+.content-image-box{
+  text-align: center;
+}
+
+.bg{
+  background: url('../../../static/image/V-lab19.png');
+  background-repeat: repeat-y;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
