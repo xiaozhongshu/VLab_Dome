@@ -29,7 +29,7 @@
     },
     methods: {
       handleExit: function () {
-        this.$router.push({path: '/member'});
+        this.$router.push({path: '/login'});
       }
     }
   }

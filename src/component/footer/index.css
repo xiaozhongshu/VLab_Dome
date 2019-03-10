@@ -27,9 +27,17 @@
   box-sizing: border-box;
 }
 
+.footer-about a {
+  color: #111111;
+}
+
 .footer-server {
   width: 224px;
   float: left;
+}
+
+.footer-server a {
+  color: #111111;
 }
 
 .footer-contact {

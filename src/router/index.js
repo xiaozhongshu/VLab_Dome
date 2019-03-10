@@ -20,6 +20,7 @@ import ViewShare from '../view/share/index';
 import ViewAntifake from '../view/antifake/index';
 import ViewCertificate from '../view/certificate/index';
 import ViewLogin from '../view/login/index';
+import ViewProductOrder from '../view/product/order';
 
 import storage from "../common/storage";
 
@@ -112,7 +113,11 @@ export default new Router({
     // beforeEnter: handleBeforeEnter
   }, {
     path: '/login',
-    component: ViewCertificate,
+    component: ViewLogin,
+    // beforeEnter: handleBeforeEnter
+  }, {
+    path: '/product/order',
+    component: ViewProductOrder,
     // beforeEnter: handleBeforeEnter
   }]
 })

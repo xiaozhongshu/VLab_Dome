@@ -48,7 +48,7 @@
           <div class="content-right-pricr-rmb">
             RMB  68.00
           </div>
-          <div class="content-right-pricr">
+          <div class="content-right-pricr" @click="handleShopping()">
             <span class="content-right-pricr-purchase">立即购买</span>
           </div>
         </div>
@@ -98,6 +98,9 @@
 
           }
         });
+      },
+      handleShopping: function () {
+        this.$router.push({path: '/product/order'});
       }
     }
   }
